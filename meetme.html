@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Creator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffe4ec 0%, #f8bbd0 100%);
+            font-family: 'Poppins', sans-serif;
+            color: #4a4a4a;
+            min-height: 100vh;
+            padding-top: 84px;
+            padding-bottom: 40px;
+        }
+        .navbar-custom {
+            background: rgba(255, 255, 255, 0.94);
+            backdrop-filter: blur(10px);
+            border-bottom: 2px solid #f48fb1;
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: #ad1457;
+            font-weight: 600;
+        }
+        .navbar-custom .nav-link.active,
+        .navbar-custom .nav-link:hover {
+            color: #ffffff;
+            background: linear-gradient(135deg, #f48fb1, #ec407a);
+            border-radius: 10px;
+        }
+        .main-card {
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(12px);
+            border: 3px solid #f48fb1;
+            box-shadow: 0 15px 35px rgba(236, 64, 122, 0.18);
+            border-radius: 22px;
+            padding: 32px;
+        }
+        .header-box {
+            background: linear-gradient(135deg, #f06292, #ec407a);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 24px;
+            box-shadow: 0 6px 15px rgba(236, 64, 122, 0.25);
+        }
+        .creator-photo {
+            width: 170px;
+            height: 170px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+            border: 4px solid #f48fb1;
+            box-shadow: 0 8px 20px rgba(236, 64, 122, 0.25);
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+        .info-box {
+            background-color: #fff9fb;
+            border: 2px dashed #f48fb1;
+            border-radius: 16px;
+            padding: 20px;
+            height: 100%;
+        }
+        .info-title {
+            color: #ad1457;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .quote-box {
+            background-color: #fff9fb;
+            border-left: 4px solid #ec407a;
+            border-radius: 12px;
+            padding: 18px 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Student Showcase 2026</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#showcaseNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="showcaseNav">
+                <ul class="navbar-nav ms-auto gap-1">
+                    <li class="nav-item"><a class="nav-link px-3" href="index.html">Homepage</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="element-checker.html">Element Checker</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="club-members.html">School Club Members</a></li>
+                    <li class="nav-item"><a class="nav-link active px-3" href="meet-the-creator.html">Meet the Creator</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="main-card">
+                    <div class="header-box text-center">
+                        <h2 class="mb-1 fw-bold">Meet the Creator</h2>
+                        <small class="text-white-50">Q2 Project • Grade 10 ICT</small>
+                    </div>
+
+                    <!-- Creator and intro -->
+                    <div class="text-center mb-4">
+                     <h4 class="fw-bold text-dark mb-1">Annika Louise De Vera</h4>
+                        <p class="text-muted mb-0">Artist with a knack for realism</p>
+                    </div>
+
+                    <!-- Interests and hobbies -->
+                    <div class="row g-4 mb-4">
+                        <div class="col-md-6">
+                            <div class="info-box">
+                                <h5 class="info-title">Interests</h5>
+                                <ul class="mb-0">
+                                    <li class="mb-2">Admiring art</li>
+                                    <li class="mb-2">Traveling</li>
+                                    <li class="mb-0">Going to the beach</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-box">
+                                <h5 class="info-title">Hobbies</h5>
+                                <ul class="mb-0">
+                                    <li class="mb-2">Sculpting</li>
+                                    <li class="mb-2">Painting</li>
+                                    <li class="mb-0">Drawing (with a knack for realism)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Favorite quote -->
+                    <div class="quote-box">
+                        <p class="fst-italic fw-semibold mb-1">"Hard work beats talent when talent fails to work hard"</p>
+                        <small class="text-muted">— Kevin Durant</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
